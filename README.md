@@ -1,7 +1,7 @@
 # SMB100A_Python
-Python scrip to interface a RF&MW generator, Rohde&amp Schwarz SMB100A, via serial (Visa).  
+Python script to interface a RF&MW generator, Rohde&amp Schwarz [SMB100A](https://www.rohde-schwarz.com/us/products/test-and-measurement/analog-signal-generators/rs-smb100a-microwave-signal-generator_63493-9379.html#:~:text=The%20compact%2C%20versatile%20R%26S%C2%AE,purity%20and%20high%20output%20power.&text=The%20R%26S%C2%AESMB100A%20is,analog%20microwave%20signal%20is%20needed.), via serial (Visa).  
+As well files to integrate with [Labscript](https://github.com/labscript-suite)
 The class allows to control the intrument in different ways:  
-
 Enable or disable the output.  
 
 Set the frequency and power output in CW:  
@@ -16,4 +16,5 @@ Set the frequency modulation of the output:
 * mode: selects different of noise, banwidth and deviation,
 * deviaton: sets the deviation of the frequency signal in kHz (0.01 Hz steps)   
 
-SMB100A contain the class to control the intrument via python.
+SMB100A.py contain the class to control the intrument via python.
+Rest of the files are for integration with [Labscript](https://github.com/labscript-suite) envioroment.
